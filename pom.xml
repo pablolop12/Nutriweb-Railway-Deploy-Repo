@@ -83,6 +83,13 @@
 			<version>0.11.5</version>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- Jakarta -->
+		<dependency>
+   			<groupId>jakarta.annotation</groupId>
+   			<artifactId>jakarta.annotation-api</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
