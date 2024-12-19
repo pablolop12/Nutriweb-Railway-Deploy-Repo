@@ -10,7 +10,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") 
-                .allowedOrigins("http://nutriweb.pablolopezlujan.es") // URL Frontend
+                .allowedOrigins("https://nutriweb.pablolopezlujan.es") // URL Frontend
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*") // Headers permitidos
                 .allowCredentials(true);
